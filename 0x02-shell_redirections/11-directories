@@ -1,2 +1,2 @@
 #!/bin/bash
-find. -type f -print | w -l
+ls -lRa . ./test_dir ./test_dir/photoes ./test_dir/rep.gif | w -l
