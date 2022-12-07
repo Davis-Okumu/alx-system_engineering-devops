@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa . ./test_dir ./test_dir/photoes ./test_dir/rep.gif | w -l
+find . -mindepth 1 -type d | wc -l
